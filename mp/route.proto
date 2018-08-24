@@ -1,0 +1,22 @@
+syntax = "proto3";
+import "common.proto";
+package mp;
+
+
+
+message RouteLoginIm {
+    int32       AppId = 1;
+    int64       UserId = 2;
+}
+
+message RouteLogoutIm {
+    int32       AppId = 1;
+    int64       UserId = 2;
+}
+
+message RouteMsgIm {
+    int32       AppId = 1;
+    int64       SenderId = 2;
+    int64       ReceiverId = 3;
+    common.MsgIm      TransportData = 4;
+}

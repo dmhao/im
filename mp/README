@@ -1,0 +1,10 @@
+protoc --go_out=plugins=grpc:./common common.proto
+protoc --go_out=plugins=grpc:. route.proto
+### 注
+route.pb.go 中  import common "." 改为 import common "im/mp/common"
+
+
+java objc
+注  去掉 common.proto 中的 package common;
+protoc --java_out=. common.proto
+protoc --objc_out=./common common.proto

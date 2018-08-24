@@ -1,0 +1,14 @@
+dbUser: root
+dbPassword: 
+dbHost: 127.0.0.1
+dbPort: 3306
+dbDatabase: im
+redisAddr: 127.0.0.1:6379
+redisPassWord:
+clientServerAddr: :7777
+apiPort: :4444
+apiPProf : true
+logDir: log/
+logExpire: 168
+rotationFormat: Day
+rotationTime: 24
