@@ -1,5 +1,8 @@
 # im
 Golang写的简单Im目前支持单聊、群聊、api推送消息(文本、图片、语音、视频、自定义透传等格式)
+![png](https://img.hacpai.com/pipe/450370050/450370050/450370050/20dd99c5d64043768455e7c8ebef5b0b.png)
+
+![png](https://img.hacpai.com/pipe/450370050/450370050/450370050/c9c0055aa7f2458db61b043ef7906f42.png)
 
 
 ### 演示
